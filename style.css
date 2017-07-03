@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css");
+@import url('https://fonts.googleapis.com/css?family=Rationale');
+
+body{
+  font-family: "Rounded Mplus 1c";
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #FFFCED;
+  font-size:20px;
+  text-align: center;  
+}
+
+#root{
+    text-align: left; 
+}
+
+#title{
+  background: #FEF6C9;
+  color:#725752;
+  font-family: "Rounded Mplus 1c";
+  font-size:50px;  
+  padding-left: 30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin: 10px;
+  text-align: center;
+}
+
+#title-logo{
+    font-family: 'Rationale', sans-serif;
+    font-size:80px;
+}
+
+.subtitle{
+  font-size:50px;
+  margin: 5px;
+  color: #725752;
+  font-family: 'Rationale', sans-serif;
+/*  background-color: #FEF6C9;*/
+}
+
+#profile{
+  overflow: hidden;
+}
+
+#profile-text{
+  float: left;
+  word-wrap: break-word;
+  width: 60%;
+}
+#profile-icon{
+  float:right;
+  margin: 30px;
+  width: 30%;
+  height: auto;
+}
+
+#portfolio-content-row{
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    box-pack: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    border-radius: 5px;
+}
+
+.portfolio-item{
+    width: 300px;
+    height: 320px;
+    margin: 10px;
+	background: #FFFCED;
+}
+
+.portfolio-item-overflow{
+    overflow: hidden;
+}
+
+.portfolio-item img{
+    width: 99%;
+    height: 80%;
+    margin:0;
+    border: 1px solid #ccc;
+    text-align: center;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	padding: 0;
+}
+
+.portfolio-item p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-item:hover img{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
