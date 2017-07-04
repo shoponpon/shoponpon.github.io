@@ -18,17 +18,17 @@ body{
   background: #FEF6C9;
   color:#725752;
   font-family: "Rounded Mplus 1c";
-  font-size:50px;  
-  padding-left: 30px;
+  font-size:50px;
   padding-top:10px;
-  padding-bottom:10px;
+  padding-bottom:5px;
   margin: 10px;
   text-align: center;
 }
 
 #title-logo{
-    font-family: 'Rationale', sans-serif;
-    font-size:80px;
+  font-family: 'Rationale', sans-serif;
+  font-size:80px;
+  letter-spacing: 10px;
 }
 
 .subtitle{
@@ -36,7 +36,14 @@ body{
   margin: 5px;
   color: #725752;
   font-family: 'Rationale', sans-serif;
-/*  background-color: #FEF6C9;*/
+  letter-spacing: 5px;
+}
+
+.worktitle{
+  font-size:50px;
+  margin: 5px;
+  color: #725752;
+  letter-spacing: 5px;
 }
 
 #profile{
@@ -74,19 +81,21 @@ body{
 
 .portfolio-item-overflow{
     overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
 }
 
 .portfolio-item img{
-    width: 99%;
-    height: 80%;
+    height: auto;
+    width: 100%;
     margin:0;
-    border: 1px solid #ccc;
     text-align: center;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-	padding: 0;
+	padding: -1;
 }
 
 .portfolio-item p{
@@ -98,4 +107,22 @@ body{
 .portfolio-item:hover img{
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
+}
+
+.pink-line{
+    background: linear-gradient(transparent 40%, rgb(255, 170, 170) 40%);
+}
+
+.return-link{
+  font-size:30px;
+  margin: 5px;
+  color: #725752;
+  font-family: 'Rationale', sans-serif;
+  letter-spacing: 5px;
+  border: 1px solid #fff;
+}
+
+.image-link{
+    overflow : hidden;
+    outline : none;
 }
