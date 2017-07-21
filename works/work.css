@@ -23,11 +23,11 @@ body{
     display: inline-block;
     margin: 10px;
     padding: 0px;
+    width: 30%;
+    height: auto;
 }
 
 #image-main{
-    width: 100%;
-    height: auto;
 }
 
 #slide{

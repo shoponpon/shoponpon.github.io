@@ -4,41 +4,52 @@
 <head>
     <title>portfolio</title>
     <meta charset="utf-8">
-    <meta name="description" content="Portfolio of Shoponpon">
+    <meta name="description" content="A work of Shoponpon">
     <meta name="author" content="Shoponpon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="work.css">
     <link rel="shortcut icon" href="">
+    <link href="../node_modules/lightbox2/dist/css/lightbox.css" rel="stylesheet">
+    <script src="../node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js" rel="stylesheet"></script>
 </head>
 
 <body>
     <div id="root">
-        <a class="return-link" href="../index.html#tomoila">もどる</a>        
-        <div id="profile">
-            <img id="profile-icon" alt="screenshot" src="resources/image/tomoila.jpg"/>
-            <div id="profile-text">
-                <div class="worktitle">
-                    <p>ともイラ</p><p>@CODE_HAMMER#2</p>
-                </div>
-                <p>概要：</p>
-                <p>イラストコミュニケーションサービスpixiv上の任意のイラストを元にbotを作成することができるWebアプリケーションです．
-                    一枚のイラストとユーザが共有する時間を増やす，会話に対応するイラストを描くという新しい創作活動の機会を増やすことを狙いました．
-                    ピクシブ株式会社&テックサロン株式会社主催のハッカソンCODE HAMMER#2中に作成しました．
-                    botはNTTドコモ雑談会話APIと強化学習アルゴリズムであるQ-Learningを組み合わせて作成，
-                    ユーザの好ましいタイミングで会話を行うものを作成しました．フロントエンドはReactJS，サーバサイドはJAX-RSを用いて実装しました．
-                </p>
-                <p>
-                    発表を行なったCODE HAMMER#2において審査員特別賞を頂きました．
-                </p>
-                <p>言語，フレームワーク：JavaScript(React), Java(JAX-RS)</p>
-                <p>開発期間：２日間</p>
-                <p>開発人数/役割：一人で全部</p>
-                <!--<p>GitHub:</p>-->
-                <object data="resources/pdf/tomoila.pdf" type="application/pdf" width="800" height="650">
+        <a href="../index.html#tomoila">TOP</a>>ともイラ@CODE_HAMMER#2
+        <h1>ともイラ@CODE_HAMMER#2</h1>
+        <div id="links">
+            <a href="#content">概要</a>
+            <a href="#slide">スライド</a>
+            <a href="#images">スクリーンショット</a>
+        </div>
+        <a name="content"></a>
+        <h2>概要</h2>
+        <div id="content">
+            <p>イラストコミュニケーションサービスpixiv上の任意のイラストを元にbotを作成することができるWebアプリケーションです． 一枚のイラストとユーザが共有する時間を増やす，会話に対応するイラストを描くという新しい創作活動の機会を増やすことを狙いました．
+                ピクシブ株式会社&テックサロン株式会社主催のハッカソンCODE HAMMER#2中に作成しました． botはNTTドコモ雑談会話APIと強化学習アルゴリズムであるQ-Learningを組み合わせて作成， ユーザの好ましいタイミングで会話を行うものを作成しました．フロントエンドはReactJS，サーバサイドはJAX-RSを用いて実装しました．
+            </p>
+            <p>
+                発表を行なったCODE HAMMER#2において審査員特別賞を頂きました．
+            </p>
+            <p>言語，フレームワーク：JavaScript(React), Java(JAX-RS)</p>
+            <p>開発期間：２日間</p>
+            <p>開発人数/役割：一人で全部</p>
+            <!--<p>GitHub:</p>-->
+        </div>
+        <a name="slide"></a>
+        <h2>スライド</h2>
+        <div id="slide">
+            <object id="slide" data="resources/pdf/tomoila.pdf" type="application/pdf" width="800" height="500">
                     <p>お使いの環境ではPDFファイルの表示をサポートしておりません．</p>
                     <p><a href="resources/pdf/tomoila.pdf">PDFファイルをダウンロードしてください</a>．</p>
-                </object>
-            </div>
+            </object>
+        </div>
+        <a name="images"></a>
+        <h2>スクリーンショット等</h2>
+        <div id="images">
+            <a href="resources/image/tomoila.jpg" data-lightbox="roadtrip"/>
+                <img alt="image-sub" src="resources/image/tomoila.jpg"/>
+            </a>
         </div>
 </body>
 
