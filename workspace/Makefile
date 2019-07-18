@@ -7,3 +7,6 @@ down:
 sh:
 	docker exec -it shoponpon_web sh
 
+serve:
+	docker exec -it shoponpon_web sh -c 'yarn serve'
+
